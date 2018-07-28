@@ -16,14 +16,17 @@
 	brute_mod =     0.85
 	slowdown =      1
 
+	spawn_flags = SPECIES_IS_RESTRICTED
 	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_TONE_GRAV | HAS_LIPS | HAS_UNDERWEAR | HAS_EYE_COLOR
 
 /datum/species/human/spacer
-	name = "Space-Adapted Human"
-	name_plural = "Space-Adapted Humans"
-	blurb = "Lithe and frail, these sickly folk were engineered for work in environments that \
-	lack both light and atmosphere. As such, they're quite resistant to asphyxiation as well as \
-	toxins, but they suffer from weakened bone structure and a marked vulnerability to bright lights."
+	name = "Belter"
+	name_plural = "Belters"
+	blurb = "Humans born in the Belt are taller and thinner than those on Earth and Mars, standing 2-2.5 meters tall, \
+	and have brittle bones from growing up in low gravity. As a consequence, they cannot survive in Earth's gravity for very long. \
+	However, Belters recover faster than Earthers after periods of high-G. These physical differences along with cultural and language difference cause \
+	Belters to be dehumanized and regarded as second-class citizens by many Earth and Mars residents,\
+	since they superficially seem to be a deviation from the species norms of humans."
 	icobase =     'icons/mob/human_races/species/human/subspecies/spacer_body.dmi'
 	preview_icon= 'icons/mob/human_races/species/human/subspecies/spacer_preview.dmi'
 
@@ -46,6 +49,8 @@
 	baseline, with no appendix and fewer inherited genetic disabilities, but a weakened metabolism."
 	icobase =     'icons/mob/human_races/species/human/subspecies/vatgrown_body.dmi'
 	preview_icon= 'icons/mob/human_races/species/human/subspecies/vatgrown_preview.dmi'
+
+	spawn_flags = SPECIES_IS_RESTRICTED
 
 	toxins_mod =   1.1
 	has_organ = list(
