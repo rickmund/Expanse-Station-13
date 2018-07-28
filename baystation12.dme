@@ -265,6 +265,7 @@
 #include "code\datums\music_tracks\dilbert.dm"
 #include "code\datums\music_tracks\elevator.dm"
 #include "code\datums\music_tracks\endless_space.dm"
+#include "code\datums\music_tracks\expanse.dm"
 #include "code\datums\music_tracks\floating.dm"
 #include "code\datums\music_tracks\human.dm"
 #include "code\datums\music_tracks\lasers.dm"

@@ -4,13 +4,45 @@
 	path = "luna"
 
 	lobby_icon = 'maps/luna/luna_lobby.dmi'
-	lobby_tracks = list(/music_track/absconditus)
+	lobby_tracks = list(/music_track/expanse)
 
 	station_levels = list(1, 2, 3)
 	contact_levels = list(1, 2, 3)
 	player_levels = list(1, 2, 3)
 
 	allowed_spawns = list("Arrivals Shuttle")
+
+	citizenship_choices = list(
+		"UN",
+		"MCR",
+		"Ceres",
+		"Eros",
+		"Tycho"
+	)
+
+	home_system_choices = list(
+		"Sol"
+	)
+
+	faction_choices = list(
+		"UN",
+		"MCR",
+		"OPA",
+		"Voltaire Collective"
+		)
+
+	religion_choices = list(
+		"Jew",
+		"Hindu",
+		"Buddhist",
+		"Muslim",
+		"Christian",
+		"Agnostic",
+		"Deist",
+		"Athiest",
+		"Thelema",
+		"Spiritualist"
+		)
 
 	shuttle_docked_message = "The shuttle has docked."
 	shuttle_leaving_dock = "The shuttle has departed from home dock."
