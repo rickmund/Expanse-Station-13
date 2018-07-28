@@ -19,14 +19,14 @@
 	spawn_flags = SPECIES_IS_RESTRICTED
 	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_TONE_GRAV | HAS_LIPS | HAS_UNDERWEAR | HAS_EYE_COLOR
 
+
 /datum/species/human/spacer
-	name = "Belter"
-	name_plural = "Belters"
-	blurb = "Humans born in the Belt are taller and thinner than those on Earth and Mars, standing 2-2.5 meters tall, \
-	and have brittle bones from growing up in low gravity. As a consequence, they cannot survive in Earth's gravity for very long. \
-	However, Belters recover faster than Earthers after periods of high-G. These physical differences along with cultural and language difference cause \
-	Belters to be dehumanized and regarded as second-class citizens by many Earth and Mars residents,\
-	since they superficially seem to be a deviation from the species norms of humans."
+	name = "Martian"
+	name_plural = "Martians"
+	blurb = "Humans born on Mars are taller than those on Earth but shorter then those born in the Belt, standing 1.5-2 meters tall, \
+	and have slightly less brittle bones then Belters. \
+	However, Martians also recover faster than Earthers after periods of high-G.\
+	Martians are known for being stoic, loyal to fellow Martians and very judgemental of Earthers and Belters"
 	icobase =     'icons/mob/human_races/species/human/subspecies/spacer_body.dmi'
 	preview_icon= 'icons/mob/human_races/species/human/subspecies/spacer_preview.dmi'
 
@@ -42,15 +42,15 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_TONE_SPCR | HAS_LIPS | HAS_UNDERWEAR | HAS_EYE_COLOR
 
 /datum/species/human/vatgrown
-	name = "Vat-Grown Human"
-	name_plural = "Vat-Grown Humans"
-	blurb = "With cloning on the forefront of human scientific advancement, cheap mass production \
-	of bodies is a very real and rather ethically grey industry. Vat-grown humans tend to be paler than \
-	baseline, with no appendix and fewer inherited genetic disabilities, but a weakened metabolism."
+	name = "Belter"
+	name_plural = "Belters"
+	blurb = "Humans born in the Belt are taller and thinner than those on Earth and Mars, standing 2-2.5 meters tall, \
+	and have brittle bones from growing up in low gravity. As a consequence, they cannot survive in Earth's gravity for very long. \
+	However, Belters recover faster than Earthers after periods of high-G. These physical differences along with cultural and language difference cause \
+	Belters to be dehumanized and regarded as second-class citizens by many Earth and Mars residents,\
+	since they superficially seem to be a deviation from the species norms of humans."
 	icobase =     'icons/mob/human_races/species/human/subspecies/vatgrown_body.dmi'
 	preview_icon= 'icons/mob/human_races/species/human/subspecies/vatgrown_preview.dmi'
-
-	spawn_flags = SPECIES_IS_RESTRICTED
 
 	toxins_mod =   1.1
 	has_organ = list(
